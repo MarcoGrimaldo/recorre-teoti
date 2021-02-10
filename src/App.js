@@ -11,13 +11,13 @@ import Reserva from './Components/Reserva/Reserva';
 import Gallery from './Components/Gallery/Gallery';
 import Contact from './Components/Contact/Contact';
 
-/*import {
-  BrowserRouter as Router,
+import {
+  HashRouter as Router,
   Switch,
   Route,
   Link
 } from 'react-router-dom';
-import { Carousel } from 'materialize-css';*/
+/*import { Carousel } from 'materialize-css';*/
 
 {/*<Router>
       <Switch>
@@ -67,14 +67,50 @@ import { Carousel } from 'materialize-css';*/
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <Banner/>
-      <Servicios/>
-      <ReservaBoton/>
-      <Gallery/>
-      <Footer/>
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Switch>
+        {/*Pagina de inicio */}
+        <Route path="/" exact>
+          <Navbar/>
+          <Banner/>
+          <Servicios/>
+          <ReservaBoton/>
+          <Gallery/>
+          <Footer/>
+        </Route>
+
+        {/*Recorrido */}
+        <Route path="/recorrido" exact>
+          <Navbar/>
+          <Header
+            h2H="Tour en Teotihuacán"
+            h5H="¡Atrevete a vivir esta aventura!"
+          />
+          <CarouselComponent/>
+          <Incluye/>
+          <ReservaBoton/>
+          <Footer/>
+        </Route>
+
+        {/*Reserva */}
+        <Route path="/reserva">
+          <Navbar/>
+          <Reserva/>
+          <Footer/>
+        </Route>
+
+        {/*Contacto */}
+        <Route path="/contacto">
+          <Navbar/>
+          <Header
+            h2H="Contactanos"
+            h5H="Pregunta lo que desees."
+          />
+          <Contact/>
+          <Footer/>
+        </Route>
+      </Switch>
+    </Router>
     
   );
 }
