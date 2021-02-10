@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+/*import Navbar from './Components/Navbar/Navbar';
 import CarouselComponent from './Components/Carousel/CarouselComponent';
 import Banner from './Components/Banner/Banner';
 import Servicios from './Components/Servicios/Servicios';
@@ -9,7 +9,10 @@ import ReservaBoton from './Components/ReservaBoton/ReservaBoton';
 import Header from './Components/Header/Header';
 import Reserva from './Components/Reserva/Reserva';
 import Gallery from './Components/Gallery/Gallery';
-import Contact from './Components/Contact/Contact';
+import Contact from './Components/Contact/Contact';*/
+
+import Home from './Pages/Home';
+import Recorrido from './Pages/Recorrido';
 
 import {
   HashRouter as Router,
@@ -70,36 +73,18 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         {/*Pagina de inicio */}
-        <Route path="/" exact>
-          <Navbar/>
-          <Banner/>
-          <Servicios/>
-          <ReservaBoton/>
-          <Gallery/>
-          <Footer/>
-        </Route>
-
+        <Route exact path="/" component={Home}></Route>
         {/*Recorrido */}
-        <Route path="/recorrido" exact>
-          <Navbar/>
-          <Header
-            h2H="Tour en Teotihuacán"
-            h5H="¡Atrevete a vivir esta aventura!"
-          />
-          <CarouselComponent/>
-          <Incluye/>
-          <ReservaBoton/>
-          <Footer/>
-        </Route>
+        <Route path="/recorrido" component={Recorrido}></Route>
 
-        {/*Reserva */}
+        {/*Reserva 
         <Route path="/reserva">
           <Navbar/>
           <Reserva/>
           <Footer/>
         </Route>
 
-        {/*Contacto */}
+        {/*Contacto 
         <Route path="/contacto">
           <Navbar/>
           <Header
@@ -108,7 +93,7 @@ function App() {
           />
           <Contact/>
           <Footer/>
-        </Route>
+        </Route>*/}
       </Switch>
     </Router>
     
