@@ -1,6 +1,6 @@
 {
-  "homepage":"https://marcogrimaldo.github.io/recorre-teoti/",
   "name": "recorre-teoti",
+  "homepage": "https://marcogrimaldo.github.io/recorre-teoti/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

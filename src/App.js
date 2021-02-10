@@ -11,19 +11,17 @@ import Reserva from './Components/Reserva/Reserva';
 import Gallery from './Components/Gallery/Gallery';
 import Contact from './Components/Contact/Contact';
 
-import {
+/*import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from 'react-router-dom';
-import { Carousel } from 'materialize-css';
+import { Carousel } from 'materialize-css';*/
 
-function App() {
-  return (
-    <Router>
+{/*<Router>
       <Switch>
-        {/*Pagina de inicio */}
+        {/*Pagina de inicio 
         <Route path="/" exact>
           <Navbar/>
           <Banner/>
@@ -33,7 +31,7 @@ function App() {
           <Footer/>
         </Route>
 
-        {/*Recorrido */}
+        {/*Recorrido 
         <Route path="/recorrido" exact>
           <Navbar/>
           <Header
@@ -46,14 +44,14 @@ function App() {
           <Footer/>
         </Route>
 
-        {/*Reserva */}
+        {/*Reserva 
         <Route path="/reserva">
           <Navbar/>
           <Reserva/>
           <Footer/>
         </Route>
 
-        {/*Contacto */}
+        {/*Contacto 
         <Route path="/contacto">
           <Navbar/>
           <Header
@@ -65,7 +63,19 @@ function App() {
         </Route>
 
       </Switch>
-    </Router>
+    </Router>*/}
+
+function App() {
+  return (
+    <div>
+      <Navbar/>
+      <Banner/>
+      <Servicios/>
+      <ReservaBoton/>
+      <Gallery/>
+      <Footer/>
+    </div>
+    
   );
 }
 
