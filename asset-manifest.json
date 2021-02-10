@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/recorre-teoti/static/css/main.aa63a3cb.chunk.css",
+    "main.js": "/recorre-teoti/static/js/main.764719e1.chunk.js",
+    "main.js.map": "/recorre-teoti/static/js/main.764719e1.chunk.js.map",
+    "runtime-main.js": "/recorre-teoti/static/js/runtime-main.648e709f.js",
+    "runtime-main.js.map": "/recorre-teoti/static/js/runtime-main.648e709f.js.map",
+    "static/css/2.0da3c5ff.chunk.css": "/recorre-teoti/static/css/2.0da3c5ff.chunk.css",
+    "static/js/2.39561aee.chunk.js": "/recorre-teoti/static/js/2.39561aee.chunk.js",
+    "static/js/2.39561aee.chunk.js.map": "/recorre-teoti/static/js/2.39561aee.chunk.js.map",
+    "static/js/3.c71ed98e.chunk.js": "/recorre-teoti/static/js/3.c71ed98e.chunk.js",
+    "static/js/3.c71ed98e.chunk.js.map": "/recorre-teoti/static/js/3.c71ed98e.chunk.js.map",
+    "index.html": "/recorre-teoti/index.html",
+    "static/css/2.0da3c5ff.chunk.css.map": "/recorre-teoti/static/css/2.0da3c5ff.chunk.css.map",
+    "static/css/main.aa63a3cb.chunk.css.map": "/recorre-teoti/static/css/main.aa63a3cb.chunk.css.map",
+    "static/js/2.39561aee.chunk.js.LICENSE.txt": "/recorre-teoti/static/js/2.39561aee.chunk.js.LICENSE.txt",
+    "static/media/1-min.a9fe50fd.jpg": "/recorre-teoti/static/media/1-min.a9fe50fd.jpg",
+    "static/media/1.21d49f4a.jpg": "/recorre-teoti/static/media/1.21d49f4a.jpg",
+    "static/media/2-min.b69b73b1.jpg": "/recorre-teoti/static/media/2-min.b69b73b1.jpg",
+    "static/media/2.f4a45178.jpg": "/recorre-teoti/static/media/2.f4a45178.jpg",
+    "static/media/3-min.94598170.jpg": "/recorre-teoti/static/media/3-min.94598170.jpg",
+    "static/media/3.f48a66c7.jpg": "/recorre-teoti/static/media/3.f48a66c7.jpg",
+    "static/media/4-min.7a9b4d4d.jpg": "/recorre-teoti/static/media/4-min.7a9b4d4d.jpg",
+    "static/media/5-min.51160e27.jpg": "/recorre-teoti/static/media/5-min.51160e27.jpg",
+    "static/media/6-min.606046a0.jpg": "/recorre-teoti/static/media/6-min.606046a0.jpg",
+    "static/media/6.c2dded2d.jpg": "/recorre-teoti/static/media/6.c2dded2d.jpg",
+    "static/media/denoche.fcfd59b7.jpg": "/recorre-teoti/static/media/denoche.fcfd59b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.648e709f.js",
+    "static/css/2.0da3c5ff.chunk.css",
+    "static/js/2.39561aee.chunk.js",
+    "static/css/main.aa63a3cb.chunk.css",
+    "static/js/main.764719e1.chunk.js"
+  ]
+}
