@@ -6,7 +6,7 @@ import Reserva from '../Components/Reserva/Reserva';
 export default class ReservaPage extends Component {
     render() {
         return (
-            <div>
+            <div >
                 <Navbar/>
                 <Reserva/>
                 <Footer/>

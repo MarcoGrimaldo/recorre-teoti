@@ -9,7 +9,7 @@ import Image3 from '../../Images/3.jpg';
 export default class CarouselComponent extends Component {
     render() {
         return (
-            <div className="">
+            <div className="container section">
             <Carousel className="presentation-mode" showThumbs={false} showStatus={false} infiniteLoop={true}>                
                 <div>
                     <img src={Image1} style={{width: 'auto', height: '400px'}}/>

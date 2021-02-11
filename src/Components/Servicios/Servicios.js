@@ -43,7 +43,7 @@ export default class Servicios extends Component {
                                 <a className="btn-floating activator halfway-fab waves-effect waves-light cyan darken-3"><i className="material-icons">add</i></a>
                             </div>
                             <div className="card-content">
-                                <p>{'Tour de aventura en cuatrimoto en Teotihuacán'}</p>
+                                <p>{'Tour de aventura en cuatrimoto'}</p>
                             </div>
                             <div className="card-reveal">
                                 <span className="card-title grey-text text-darken-4">{'Tour de aventura en cuatrimoto en Teotihuacán'}<i className="material-icons right">close</i></span>
@@ -64,7 +64,7 @@ export default class Servicios extends Component {
                                 <p>{'Tour de aventura en bicicleta en Teotihuacán'}</p>
                             </div>
                             <div className="card-reveal">
-                                <span className="card-title grey-text text-darken-4">{'Tour de aventura en bicicleta en Teotihuacán'}<i className="material-icons right">close</i></span>
+                                <span className="card-title grey-text text-darken-4">{'Tour de aventura en bicicleta'}<i className="material-icons right">close</i></span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam</p>
                             </div>
                             <div className="card-action">

@@ -18,7 +18,7 @@ export default class Reserva extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col s12 ">
-                                <div className="container center">
+                                <div className="container center" id="containerCenter">
                                     <h4 className="center">Reserva!</h4>
                                     <div className="input-field col s12">
                                         <select>
@@ -54,7 +54,7 @@ export default class Reserva extends Component {
                                         <label htmlFor="no_ninos">Niños</label>
                                     </div>
                                     <button className="btn waves-effect waves-light teal darken-4 white-text" type="submit" name="action">Siguiente
-                                        <i class="material-icons right">send</i>
+                                        <i className="material-icons right">send</i>
                                     </button>
                                 </div>
                             </div>

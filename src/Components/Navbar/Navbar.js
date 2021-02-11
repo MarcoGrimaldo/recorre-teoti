@@ -14,7 +14,7 @@ export default class Navbar extends Component {
                 <nav className="blue-grey darken-4">
                     <div className="nav-wrapper container">
                     <Link to="/" className="brand-logo"><h5>{'RecorreTeotihuacán'}</h5></Link>
-                    <Link data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
+                    <a href="#"data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
                         <li><Link to="/">{'Inicio'}</Link></li>
                         <li><Link to="/reserva">{'Reserva'}</Link></li>
