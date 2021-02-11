@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 export default class ReservaBoton extends Component {
     render() {
@@ -7,9 +8,9 @@ export default class ReservaBoton extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col s12 center">
-                        <a href="/reserva" className="btn btn-large waves-effect white teal-text text-darken-4">
+                        <Link to="/reserva" className="btn btn-large waves-effect white teal-text text-darken-4">
                             {'¡Quiero reservar!'}<i className="material-icons left">send</i>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

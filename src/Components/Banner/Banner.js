@@ -3,6 +3,7 @@ import Imgone from '../../Images/2.jpg';
 import Imgtwo from '../../Images/6.jpg';
 import Imgthree from '../../Images/denoche.jpg';
 import M from "materialize-css";
+import {Link} from 'react-router-dom';
 
 export default class Banner extends Component {
     componentDidMount() {
@@ -35,7 +36,7 @@ export default class Banner extends Component {
                         <h5 className="light grey-text text-lighten-3 hide-on-small-only">
                         {'Recorrido, aventura, degustaciones, pulque ¡y más!'}
                         </h5>
-                        <a to="#" className="btn btn-large cyan darken-3">{"Ver más"}</a>
+                        <Link to="/recorrido" className="btn btn-large cyan darken-3">{"Ver más"}</Link>
                     </div>
                 </li>
                 <li>
@@ -45,7 +46,7 @@ export default class Banner extends Component {
                         <h5 className="light grey-text text-lighten-3 hide-on-small-only">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam.
                         </h5>
-                        <a to="#" className="btn btn-large cyan darken-3">{"Ver más"}</a>
+                        <Link to="/recorrido" className="btn btn-large cyan darken-3">{"Ver más"}</Link>
                     </div>
                 </li>
             </ul>

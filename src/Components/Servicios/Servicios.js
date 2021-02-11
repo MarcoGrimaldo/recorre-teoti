@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import ImgOne from '../../Images/Servicios/1-min.jpg'; //caminata
 import ImgTwo from '../../Images/Servicios/2-min.jpg'; //estrellas
 import ImgThree from '../../Images/Servicios/3-min.jpg'; //globos
@@ -30,7 +31,7 @@ export default class Servicios extends Component {
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam</p>
                             </div>
                             <div className="card-action">
-                                <a href="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</a>
+                                <Link to="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</Link>
                             </div>
                         </div>
                     </div>
@@ -49,7 +50,7 @@ export default class Servicios extends Component {
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam</p>
                             </div>
                             <div className="card-action">
-                                <a href="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</a>
+                                <Link to="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</Link>
                             </div>
                         </div>
                     </div>
@@ -67,7 +68,7 @@ export default class Servicios extends Component {
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam</p>
                             </div>
                             <div className="card-action">
-                                <a href="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</a>
+                                <Link to="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</Link>
                             </div>
                         </div>
                     </div>
@@ -85,7 +86,7 @@ export default class Servicios extends Component {
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam</p>
                             </div>
                             <div className="card-action">
-                                <a href="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</a>
+                                <Link to="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</Link>
                             </div>
                         </div>
                     </div>
@@ -103,7 +104,7 @@ export default class Servicios extends Component {
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam</p>
                             </div>
                             <div className="card-action">
-                                <a href="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</a>
+                                <Link to="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</Link>
                             </div>
                         </div>
                     </div>
@@ -121,7 +122,7 @@ export default class Servicios extends Component {
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti quam</p>
                             </div>
                             <div className="card-action">
-                                <a href="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</a>
+                                <Link to="/recorrido" className="light-blue-text text-darken-3">{'Más información...'}</Link>
                             </div>
                         </div>
                     </div>
