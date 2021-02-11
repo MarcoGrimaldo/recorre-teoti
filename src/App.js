@@ -1,99 +1,24 @@
 import './App.css';
-/*import Navbar from './Components/Navbar/Navbar';
-import CarouselComponent from './Components/Carousel/CarouselComponent';
-import Banner from './Components/Banner/Banner';
-import Servicios from './Components/Servicios/Servicios';
-import Footer from './Components/Footer/Footer';
-import Incluye from './Components/Incluye/Incluye';
-import ReservaBoton from './Components/ReservaBoton/ReservaBoton';
-import Header from './Components/Header/Header';
-import Reserva from './Components/Reserva/Reserva';
-import Gallery from './Components/Gallery/Gallery';
-import Contact from './Components/Contact/Contact';*/
 
 import Home from './Pages/Home';
 import Recorrido from './Pages/Recorrido';
+import Contacto from './Pages/Contacto';
+import ReservaPage from './Pages/ReservaPage'
 
 import {
   HashRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
-/*import { Carousel } from 'materialize-css';*/
-
-{/*<Router>
-      <Switch>
-        {/*Pagina de inicio 
-        <Route path="/" exact>
-          <Navbar/>
-          <Banner/>
-          <Servicios/>
-          <ReservaBoton/>
-          <Gallery/>
-          <Footer/>
-        </Route>
-
-        {/*Recorrido 
-        <Route path="/recorrido" exact>
-          <Navbar/>
-          <Header
-            h2H="Tour en Teotihuacán"
-            h5H="¡Atrevete a vivir esta aventura!"
-          />
-          <CarouselComponent/>
-          <Incluye/>
-          <ReservaBoton/>
-          <Footer/>
-        </Route>
-
-        {/*Reserva 
-        <Route path="/reserva">
-          <Navbar/>
-          <Reserva/>
-          <Footer/>
-        </Route>
-
-        {/*Contacto 
-        <Route path="/contacto">
-          <Navbar/>
-          <Header
-            h2H="Contactanos"
-            h5H="Pregunta lo que desees."
-          />
-          <Contact/>
-          <Footer/>
-        </Route>
-
-      </Switch>
-    </Router>*/}
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        {/*Pagina de inicio */}
         <Route exact path="/" component={Home}></Route>
-        {/*Recorrido */}
         <Route path="/recorrido" component={Recorrido}></Route>
-
-        {/*Reserva 
-        <Route path="/reserva">
-          <Navbar/>
-          <Reserva/>
-          <Footer/>
-        </Route>
-
-        {/*Contacto 
-        <Route path="/contacto">
-          <Navbar/>
-          <Header
-            h2H="Contactanos"
-            h5H="Pregunta lo que desees."
-          />
-          <Contact/>
-          <Footer/>
-        </Route>*/}
+        <Route path="/contacto" component={Contacto}></Route>
+        <Route path="/reserva" component={ReservaPage}></Route>
       </Switch>
     </Router>
     
